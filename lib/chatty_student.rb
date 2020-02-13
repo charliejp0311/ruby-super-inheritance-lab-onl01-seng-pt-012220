@@ -1,6 +1,6 @@
 require_relative "./student.rb"
 require "pry"
-class ChattyStudent
+class ChattyStudent < Student
 
   def hello(idk = nil)
     "Hello, world!"
