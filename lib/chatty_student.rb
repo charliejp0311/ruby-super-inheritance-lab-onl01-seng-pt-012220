@@ -3,7 +3,7 @@ require "pry"
 class ChattyStudent < Student
 
   def hello(idk = nil)
-    "Hello, world!"
+    #{}"Hello, world!"
     binding.pry
   end
 
