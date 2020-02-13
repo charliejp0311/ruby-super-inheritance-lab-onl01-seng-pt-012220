@@ -1,5 +1,7 @@
 require "pry"
 class Student
-  attr_accessor :name
+  def hello
+    "Hey there! I'm so excited to learn stuff.\n"
+  end
 
 end
